@@ -7,7 +7,7 @@ let name="Deepali"
 let age=23
 let isLoggedIn = true
 let state=null
-//number=> 2 to powe 53
+//number=> 2 to power 53
 //bigint
 //string => ""
 //boolean => true/false
