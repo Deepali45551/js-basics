@@ -43,4 +43,30 @@ users[1].email
 //console.log(Object.keys(tinderUser));//[ 'id', 'name', 'isLoggedIn' ]
 //console.log(Object.values(tinderUser));//[ '123abc', 'sammy', false ]
 //console.log(Object.entries(tinderUser));//[ [ 'id', '123abc' ], [ 'name', 'sammy' ], [ 'isLoggedIn', false ] ]
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true property available or not
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true property available or not
+
+const course={
+    coursename:"js",
+    price:"333",
+    courseInstructor: "deepali"
+}
+//course.courseInstructor
+const {courseInstructor:instructor}=course//destucture
+//console.log(courseInstructor);//deepali
+console.log(instructor);//deepali
+
+// API FORMAT
+//{
+  //  "name":"deepali",
+   // "coursename":"js",
+   // "price":"free"
+//}
+
+[
+    {},
+    {},
+]
+
+
+
+
