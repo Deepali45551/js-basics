@@ -26,12 +26,33 @@ const result=addNumbers(2,3)
 
 function loginUserMessage(username){
     if(username===undefined){
-        console.log("Please enter a username");//Please enter a username
+//        console.log("Please enter a username");//Please enter a username
     }
     return `${username}just logged in`
 }
 //console.log(loginUserMessage("deepali"))//deepalijust logged in
-console.log(loginUserMessage())//undefinedjust logged in
+//console.log(loginUserMessage())//undefinedjust logged in
 
+function calculateCartPrice(...num1){
+  return num1;
+}
+//console.log(calculateCartPrice(200,300,500,2000));//[ 200, 300, 500, 2000 ]
 
-
+const user={
+  username:"hitesh",
+  price:199
+}
+function handleObject(anyobject){
+  //console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);//Username is hitesh and price is 199
+}
+//handleObject(user)
+//handleObject({
+  //username:"sam",
+ // price:300
+//})
+const myArr=[200,300,100]
+function  returnSecondValue(getArray){
+  return getArray[1]
+}
+//console.log(returnSecondValue(myArr));//300
+console.log(returnSecondValue([200,300,100]));//300
