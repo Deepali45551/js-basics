@@ -1,7 +1,7 @@
 //Array  Object multiple items in single variable, resizeable,mix datatype.
-const myArr=[0,1,2,3,4,5]
-const myHeroes=["shaktimaan","naagraj","doma"]
-const myArr2=new Array(1,2,3,4);
+const myArr = [0, 1, 2, 3, 4, 5]
+const myHeroes = ["shaktimaan", "naagraj", "doma"]
+const myArr2 = new Array(1, 2, 3, 4);
 //console.log(myArr[1]);//1
 //Array Methods
 //myArr.push(6) //[0, 1, 2, 3, 4, 5, 6 ]
@@ -20,11 +20,11 @@ const myArr2=new Array(1,2,3,4);
 
 //slice , splice
 //console.log("A",myArr);  //A [ 0, 1, 2, 3, 4, 5 ]
-const myn1=myArr.slice(1,3);  //original array manipulate ni hota
+const myn1 = myArr.slice(1, 3);  //original array manipulate ni hota
 
 console.log(myn1);    //[ 1, 2 ]
-console.log("B",myArr); //B [ 0, 1, 2, 3, 4, 5 ]
+console.log("B", myArr); //B [ 0, 1, 2, 3, 4, 5 ]
 
-const myn2=myArr.splice(1,3);// original array manipulate hota hai
-console.log("C",myArr);  //C [ 0, 4, 5 ]
+const myn2 = myArr.splice(1, 3);// original array manipulate hota hai
+console.log("C", myArr);  //C [ 0, 4, 5 ]
 console.log(myn2); //[ 1, 2, 3 ]

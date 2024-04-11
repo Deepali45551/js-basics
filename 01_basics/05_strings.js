@@ -1,14 +1,14 @@
 const name = "Deepali"
 const repoCount = 50
 
- //console.log(name + repoCount + " Value");//Deepali50 Value
+//console.log(name + repoCount + " Value");//Deepali50 Value
 
 //console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('Deepali-hc-com')
 
- //console.log(gameName[0]);//D
- //console.log(gameName.__proto__);//{}
+//console.log(gameName[0]);//D
+//console.log(gameName.__proto__);//{}
 
 
 //console.log(gameName.length);//14

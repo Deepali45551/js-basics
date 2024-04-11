@@ -1,13 +1,13 @@
 ///switch (key) {
-  //  case value:
-        
-    //    break;
+//  case value:
 
-    //default:
-    //    break;
+//    break;
+
+//default:
+//    break;
 //}
 
-const month="march"
+const month = "march"
 switch (month) {
     case "jan":
         console.log("January");
